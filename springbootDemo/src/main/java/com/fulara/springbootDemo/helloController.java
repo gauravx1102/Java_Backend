@@ -9,4 +9,8 @@ public class helloController {
     public String hellocontroller(){
         return "Hello, I am Gaurav Fulara";
     }
+    @GetMapping(path = "/user")
+    public String users(){
+        return "Hi this is your user";
+    }
 }
