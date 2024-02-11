@@ -13,4 +13,9 @@ public class helloController {
     public String users(){
         return "Hi this is your user";
     }
+    //can i use getmapping inside any given address
+    @GetMapping(path = "/home/gaurav")      //mapping ke andar mapping
+    public String gaurav(){
+        return "This is Gaurav's address";
+    }
 }
